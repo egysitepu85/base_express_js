@@ -33,7 +33,7 @@ router.get('/', (req, res, next) => {
 });
 
 
-router.get('/sensor/:sensor1:sensor2', (req, res, next) => {
+router.get('/sensor/:sensor1/:sensor2', (req, res, next) => {
   try {
       res.json({
         "status": 202,

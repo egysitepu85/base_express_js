@@ -53,9 +53,9 @@ router.get('/sensor/:sensor1/:sensor2/:sensor3', (req, res, next) => {
         "status": 202,
         "message": "Success",
         "data": {
-          "sensor_1": parseInt(req.params.sensor3),
-          "sensor_2": parseInt(req.params.sensor1),
-          "sensor_3": parseInt(req.params.sensor2)
+          "sensor_1": 78,
+          "sensor_2": 123,
+          "sensor_3": 65
         }
       });
   } catch (err) {
